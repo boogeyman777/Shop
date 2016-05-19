@@ -1,0 +1,78 @@
+
+a {
+color: #ff234b
+}
+}
+a:hover {
+    text-decoration: none;
+}
+img {
+    border: none;
+}
+.catalog {
+    width: 726px;
+    margin: 30px auto;
+}
+
+.product-main {
+width: 242px;
+    float: left;
+}
+.product {
+    border-right: 1px dotted #003300; padding: 0 15px;
+}
+.product h2 {
+    text-align: center;
+    font-style: bold;
+    font-size: 14px;
+    margin: 0 0 15px 0;
+    font-family: Tahoma;
+}
+.product-img {
+    text-align: center;
+}
+.price {
+    font-size: 20px;
+    font-family: "Trebuchet MS";
+    color: red;
+    text-align: center;
+margin: 0 0 10px 0;
+}
+.price span {
+    font-size: 15px;
+    color: grey;
+    text-align: center;
+}
+.price img {
+    float: right;
+    margin: 0 0 0 0;
+}
+.bot-dot {
+    border-bottom: dotted 1px;
+    border-color: #003300;
+    margin: 20px;
+}
+.product-main:nth-child(3n) .product {
+    border-left: none;
+}
+.product-main:nth-child(3n) .bot-dot {
+    margin: 20px 20px 20px 20px;
+}
+.product-main:nth-child(3n+1) .bot-dot {
+    margin: 20px 20px 20px 0;
+}
+#korzina input {
+    width: 100%;
+    float: left;
+}
+#korzina td {
+    border: none;
+}
+#privatpolicy {
+    font-size: 8px;
+    vertical-align: top;
+    border: none;
+}
+#privatpolicy input {
+    float: left;
+}
