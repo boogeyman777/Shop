@@ -1,10 +1,13 @@
 
 a {
-color: #ff234b
+color: black;
 }
+h1 {
+    font-size: 20px;
+    text-align: center;
 }
-a:hover {
-    text-decoration: none;
+h2 {
+    font-size: 18px;
 }
 img {
     border: none;
